@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--META TAGS AND JSON LD-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Keith Dasalla is a UI/UX Designer and Computer Science student from the Philippines. Explore his portfolio showcasing creative designs and projects." />
+    <meta name="keywords" content="UI/UX Designer, Portfolio, Web Design, Graphic Design, Computer Science, Keith Dasalla" />
+    <meta name="author" content="Keith Dasalla" />
+    <link rel="canonical" href="https://www.keithdasalla.netlify.app" />
+    <title>keith dasalla | ui/ux</title>
+    <link rel="icon" href="kdlogo.png">
+    <link rel="stylesheet" href="stylesheet.css"/>
+
+    <!--EMAILJS-->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('5VXtQgxCvd1nTefQ8')
+    </script>
+    <script src = "emailer.js"></script>
+
+    <!--META TAGS AND JSON LD-->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Keith Dasalla",
+        "url": "https://www.keithdasalla.netlify.app",
+        "image": "https://www.keithdasalla.netlify.app/headshot.png",
+        "description": "Keith Dasalla is a UI/UX Designer and Computer Science student from the Philippines, creating user-centric projects and designs.",
+        "email": "mailto:keithdasalla@gmail.com",
+        "telephone": "+639352927323",
+        "sameAs": [
+          "https://www.instagram.com/icedloveade",
+          "https://medium.com/@keithdasalla",
+          "https://www.linkedin.com/in/keith-dasalla",
+          "https://github.com/nwjns"
+        ],
+        "jobTitle": "UI/UX Designer",
+        "address": {
+          "@type": "4103",
+          "addressLocality": "Philippines"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+639352927323",
+          "contactType": "Personal",
+          "areaServed": "PH",
+          "availableLanguage": "English"
+        }
+      }
+    </script>
+
+  </head>
+  <body>
+    <!--NAVIGATION BAR-->
+    <nav>
+      <div class="logo">
+        <img
+          id="logo-pic"
+          src="kdlogo.png"
+          alt="Keith Dasalla | UI/UX Designer"
+        />
+      </div>
+      <div class="nav-links" aria-label="Main Navigation">
+        <a href="#home" aria-label="Go to Home Section">Home</a>
+        <a href="#about" aria-label="Go to About Section">About</a>
+        <a href="#projects" aria-label="Go to Projects Section">Projects</a>
+        <a href="#contacts" aria-label="Go to Contacts Section">Contacts</a>
+      </div>
+    </nav>
+
+    <!--HOME DIV-->
+    <div id="home" class="home">
+      <!--HERO SECTION-->
+      <div class="hero hidden">
+        <div class="hero-text">
+          <h1 class="typing-effect">Hello, Wor<i>l</i>d<i>!</i></h1>
+          <p aria-label="Introduction Text">
+            I'm Keith Dasalla, and I design and create experiences that bring ideas to life.
+          </p>
+          <!--HERO SECTION BUTTONS-->
+          <div class="home-hero-btn">
+            <a href="#about" id="btn1" aria-label="Learn more about me">Know More</a>
+            <a
+              href="DASALLA, KEITH GABRIELL F..pdf"
+              id="btn2"
+              aria-label="Download or see my resume"
+              target="_blank"
+              >Resume</a
+            >
+          </div>
+        </div>
+        <!--FACE CARD-->
+        <img src="headshot.png" class="hero-image" alt="Keith Dasalla | UI/UX Designer" aria-label="Keith Dasalla Headshot"/>
+      </div>
+    </div>
+
+    <!--ABOUT DIV-->
+    <div id="about" class="about">
+      <div class="about-container hidden">
+        <!--ABOUT LEFT CONTAINER-->
+        <div class="about-text">
+          <h1 id="about-heading" aria-label="About me section">ABOUT</h1>
+          <p class="about-paragraph">
+            Hi! I am <strong>Keith Dasalla</strong>, a Computer Science student
+            and UI/UX Designer from the Philippines. Currently, I am
+            enhancing my skills and building and designing user-centric projects for school and portfolio purposes.
+          </p>
+          <br>
+          <p class ="about-paragraph">
+            During my university years, I worked on personal and group projects, 
+            honing my skills in design and development. 
+            My involvement in organizations, 
+            particularly in documentation and graphic design, 
+            also helped me create designs for websites and applications.
+          </p>
+          <br />
+          <p id="tagline-about" aria-label="Tagline">
+            <b>K</b>rafting <b>K</b>odes, <b>K</b>reating <b>D</b>esigns
+          </p>
+          <div class="social-icons" aria-label="Follow me on social media">
+            <a href="https://www.instagram.com/icedloveade" target="_blank">
+              <img src="instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://medium.com/@keithdasalla" target="_blank">
+              <img src="medium.png" alt="Medium" />
+            </a>
+            <a href="https://www.linkedin.com/in/keith-dasalla" target="_blank">
+              <img src="linkedin.png" alt="LinkedIn" />
+            </a>
+            <a href="https://github.com/nwjns" target="_blank">
+              <img src="github.png" alt="GitHub" />
+            </a>
+          </div>
+        </div>
+        <!--ABOUT RIGHT CONTAINER-->
+        <div class="about-skills" aria-label="Skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>UI/UX Design</li>
+            <li>Technical & Academic Writing</li>
+            <li>Documentation</li>
+            <li>Wireframing</li>
+          </ul>
+          <h2 id="design-header">Design</h2>
+          <ul class="design-list">
+            <li>Adobe Photoshop</li>
+            <li>Figma</li>
+            <li>Inkscape</li>
+          </ul>
+          <h2>Development</h2>
+          <ul>
+            <li>Java</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>mySQL</li>
+            <li>php</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--PROJECTS DIV-->
+    <div id="projects" class="projects">
+      <h1 id="projects-heading" aria-label="Projects section">PROJECTS</h1>
+      <p id = "project-acknowledgement">Big thanks to my esteemed groupmates and friends who also contributed to these projects.</p>
+      <!--CAROUSEL AND CAROUSEL CONTAINER-->
+      <div id="carousel-container" class="carousel-container">
+        <div id="project-info" class="project-info hidden">
+          <h1 id="project-title" aria-label="Project title"></h1>
+          <p id="project-description" aria-label="Project description"></p>
+          <p id="project-type" aria-label="Project type"></p>
+          <button id="view-project" aria-label="View Project">View Project</button>
+    </div>
+  <div class="project-images hidden">
+    <img id="project-image" src="" alt="Project Image" aria-label="Project Image"/>
+    <div class="carousel-controls hidden">
+      <button id="prev-image-btn" aria-label="Previous project">&#10094</button>
+      <button id="next-image-btn" aria-label="Next project">&#10095</button>
+    </div>
+  </div>
+</div>
+<div class="project-nav hidden">
+  <button id="prev-project-btn">Previous Project</button>
+  <button id="next-project-btn">Next Project</button>
+</div>
+    </div>
+
+<!--CONTACTS DIV-->
+<div id="contacts" class="contacts">
+  <h1 id="contacts-heading" aria-label="Contact me section">CONTACT ME</h1>
+  <p id = "contact-description" aria-label="Contact section description">Feel free to contact me with any inquiries or questions!</p>
+  
+  <div class="contact-container hidden">
+    <!--CONTACT FORM LEFT CONTAINER -->
+    <div class="contact-form" >
+      <form>
+        <label for="name">Name</label>
+        <input name="name" id="name" type="text" class="feedback-input" placeholder="Name"  aria-label="Your Name" required/>
+
+        <label for="email">Email</label>
+        <input name="email" id="email" type="email" class="feedback-input" placeholder="Email"  aria-label="Your Email" required/>
+
+        <label for="text">Message</label>
+        <textarea name="text" id="message" class="feedback-input" placeholder="Message" aria-label="Your Message" required></textarea>
+
+        <input type="submit" value="Submit" aria-label="Submit your message"/>
+      </form>
+    </div>
+
+    <!-- CONTACT DETAILS RIGHT CONTAINER -->
+    <div class="contact-details">
+      <div class="email-contact-details"><h2>Email</h2> <p>keithdasalla@gmail.com</p></div>
+      <br>
+      <div class="phone-contact-details"><h2>Phone</h2> <p>+639 3529 27323</p></div>
+    </div>
+  </div>
+</div>
+
+    <!--FOOTER-->
+    <footer class="contact-footer">
+    <p id = "footer-social-links" aria-label="Follow me on social media">
+      <a href = "https://www.instagram.com/icedloveade">Instagram</a>
+      <a href = "https://medium.com/@keithdasalla">Medium</a>
+      <a href = "https://www.linkedin.com/in/keith-dasalla">LinkedIn</a>
+      <a href = "https://github.com/nwjns">Github</a>
+    </p>
+    <p id = "footer-copyright">&copy; 2024 Keith Dasalla. Krafting Kodes, Kreating Designs. All rights reserved.</p>
+    <p><a href="#home" aria-label="Back to Home Section">Back to Top</a></p>
+  </footer>  
+
+    <!--SCRIPT TAGS-->
+    <script src = scroll-on-reveal.js></script>
+    <script src="typing-animation-and-logo.js"></script>
+    <script src = "projects-carousel.js"></script>
+  </body>
+</html>
