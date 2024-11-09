@@ -640,4 +640,10 @@ textarea {
   .contact-details {
     display: none;
   }
+  .contact-footer {
+    font-size: 0.6em;
+  }
+  #footer-social-links {
+    word-spacing: 20px;
+  }
 }
